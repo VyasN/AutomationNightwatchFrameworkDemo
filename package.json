@@ -1,0 +1,24 @@
+{
+  "name": "ebx-test-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch",
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^76.0.1",
+    "dotenv": "^8.1.0",
+    "nightwatch": "^1.2.1",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {
+    "eslint": "^6.2.2",
+    "selenium-download": "^2.0.15"
+  }
+}
